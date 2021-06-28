@@ -1,0 +1,116 @@
+.App {
+  width: 100%;
+  background: url(NIKON\ D31001761.JPG);
+  background-size: cover;
+  background-position:center ;
+  min-height: 200vh;
+  box-sizing: border-box;
+  /* height:25rem; */
+}
+.navc{
+  background: rgb(34,26,26);
+}
+.addbtn{
+  background-color: rgb(11,23,33);
+}
+.clear{
+  /* background-color: rgb(11,23,33); */
+  color: white;
+  border:none;
+  background: none;
+}
+.logo{
+  width: 8rem;
+  height: 52px;
+  /* padding-bottom: 2px; */
+  /* border-radius: 50px; */
+  float:left;
+} 
+.hd{
+  text-align: center;
+  position: relative;
+  top:5rem ;
+  color: rgb(230,228,226);
+  font-family: Arial, Helvetica, sans-serif ;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+
+
+.table{
+  text-align: center;
+  width: 56rem;
+  height: fit-content;
+  color: rgb(230,228,226);
+  /* background-color:rgb(255, 255, 255); */
+  position: relative;
+  left: 17rem;
+  top: 5rem;
+
+}
+.table::selection{
+  background-color: rgba(189, 116, 33, 0.945);
+  color:rgb(13, 25, 36); ;
+}
+.edi{
+  opacity: 0; 
+}
+.edi:hover{
+  opacity: 1;
+  /* color: rgb(238, 172, 49); */
+
+}
+.del{
+  color: rgb(252, 76, 63);
+}
+
+.edb{
+  color: rgb(67, 241, 67);
+}
+.nct{
+  width:fit-content;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 29rem;
+  display: inline-flex;
+  color: white;
+  
+}
+
+input{
+  color: white;
+}
+
+.subbtn{
+  width: 29rem;
+  text-align: center;
+  margin-left: 10px; 
+  
+
+  background-color:  rgb(189,115,52);
+  
+}
+
+
+.foot{
+  background-color: rgb(131,76,33);
+}
+.ff{
+  background-color: rgb(32,65,65);
+}
+
+.foot{position: relative ;
+  top: 25rem;
+  margin: 10rem;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
